@@ -33,6 +33,7 @@ html {
     background-color: white;
     border-radius: 20px;;
     text-align: right;
+    border: 0px;
     
 }
 header li {
@@ -41,6 +42,7 @@ header li {
     text-align: center;
     margin: 0 8px;
     color: white;
+    font-size: 1.4rem;;
 }
 .linkheader {
     flex-grow: 1;
@@ -52,7 +54,7 @@ header li {
  }
  .banner {
     margin: auto;
-    height: 40rem;
+    height: rem;
     background-image: url("../img/jumbo.png");
     background-size:cover;
     overflow: hidden;
@@ -77,7 +79,7 @@ header li {
  }
  .container-title {
     margin: auto;
-    padding-top: 80px;
+    padding: 80px 0 30px 0;
     width: 50%;
     max-width: 1000px;
     text-align: center;
@@ -93,16 +95,21 @@ header li {
  }
 .blocks {
     display:flex;
-    height: 200px;
     padding: 10px 0 10px 0;
  }
- .blockblue {
-    background-color: blue;
-    flex-grow: 2;
+ .imageblock {
+  width: 60%;
  }
- .blockpink {
-    background-color: rgb(231, 96, 118);
-    flex-grow: 1;
+ .textblock {
+    width: 30%;
+    margin-top: 30px;
+ }
+ .textblock >h2 {
+    font-size: 3rem;
+ }
+ .textblock > p {
+    font-size: 1.6rem;
+    margin-top: 15px;
  }
 .backgroundstyle {
     width: 100%;
