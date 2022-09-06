@@ -174,8 +174,7 @@ background-color: beige;
 }
 .foot {
     width: 100%;
-    background-color: aquamarine;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
 }
 .bigcolumn select {
     border: 0px;
@@ -204,4 +203,13 @@ background-color: beige;
 }
 li:first-child {
     color:#7289da;
+}
+.buttonblue2 {
+    background-color: #8ea0e4;
+    border-radius: 20px;;
+    text-align: right;
+    border: 0px;
+    color: white;
+    padding: 5px;
+
 }
