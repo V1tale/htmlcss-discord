@@ -68,6 +68,16 @@ header li {
     border: 0px;
     margin-right: 10px;
  }
+ .buttonblue {
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #7289da;
+    border-radius: 20px;;
+    text-align: right;
+    border: 0px;
+    margin: 20px 10px;
+    color: white;
+ }
  .buttonblack {
     align-items: flex-start;
     padding: 3px 15px 3px 15px;
@@ -121,7 +131,7 @@ header li {
     padding: 50px 0 50px 0;
 }
 .last-row > img {
-    width: 60%;
+    width: 100%;
 }
 .gray{
     background-color: gray;
@@ -129,11 +139,6 @@ header li {
 .darkgray {
     background-color: rgb(63, 63, 63);
 
-}
-.bigblock {
-    background-color: cyan;
-    /* padding: 10px 0 10px 0; */
-    height: 300px;
 }
 .clear-fix {
     content:"";
