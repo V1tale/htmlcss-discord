@@ -133,13 +133,6 @@ header li {
 .last-row > img {
     width: 100%;
 }
-.gray{
-    background-color: gray;
-}
-.darkgray {
-    background-color: rgb(63, 63, 63);
-
-}
 .clear-fix {
     content:"";
     display: table;
@@ -163,11 +156,13 @@ footer, .bg-black{
 }
 .stars {
     background-image: url(../img/stars.svg);
-    width: 70%;
+    width: 40%;
     margin: auto;
     background-size:contain;
-    padding: 30px  0 30px 0;
+    padding: 10px  0 10px 0;
     background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.6rem;
 }
 .logo2 {
 background-color: beige;
@@ -201,7 +196,7 @@ background-color: beige;
     color: white;
     line-height: 2rem;
 }
-li:first-child {
+ footer li:first-child {
     color:#7289da;
 }
 .buttonblue2 {
@@ -218,4 +213,21 @@ li:first-child {
     height: 100px;
     padding: 20px 0;
     font-size: 2rem;;
+}
+.waves {
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:.03;
+}
+.waves-reversed {
+    transform: rotate(180deg);
+    background-image: url(../img/wave.svg);
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:.03;
 }
