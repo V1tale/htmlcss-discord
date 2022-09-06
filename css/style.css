@@ -115,6 +115,14 @@ header li {
     width: 100%;
     background-color: #f6f6f6;
 }
+.last-row {
+    text-align: center;
+    font-size:1.6rem;
+    padding: 50px 0 50px 0;
+}
+.last-row > img {
+    width: 60%;
+}
 .gray{
     background-color: gray;
 }
