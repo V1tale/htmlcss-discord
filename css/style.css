@@ -6,7 +6,7 @@
 }
 html {
     font-size: 62.5%;
-    font-family: ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 .bgheader {
     background-color: #255ee9;
@@ -61,7 +61,7 @@ header li {
  }
  .buttonwhite {
     align-items: flex-start;
-    padding: 3px 15px 3px 15px;
+    padding: 5px 15px 5px 15px;
     background-color: white;
     border-radius: 20px;;
     text-align: right;
@@ -80,7 +80,7 @@ header li {
  }
  .buttonblack {
     align-items: flex-start;
-    padding: 3px 15px 3px 15px;
+    padding: 5px 15px 5px 15px;
     background-color: rgb(39, 39, 39);
     border-radius: 20px;;
     text-align: right;
@@ -148,21 +148,26 @@ header li {
 
 }
 .last-block {
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px;
 }
 .column {
     width: 50px;
-    background-color: rgb(112, 87, 255);
-    height: 200px;
     flex-grow: 1;
 }
 .bigcolumn {
     flex-grow: 3;
-    background-color: purple;
 }
 footer, .bg-black{
     background-color: black;
     width: 100%;
+}
+.stars {
+    background-image: url(../img/stars.svg);
+    width: 70%;
+    margin: auto;
+    background-size:contain;
+    padding: 30px  0 30px 0;
+    background-repeat: no-repeat;
 }
 .logo2 {
 background-color: beige;
@@ -171,4 +176,32 @@ background-color: beige;
     width: 100%;
     background-color: aquamarine;
     margin-bottom: 5px;;
+}
+.bigcolumn select {
+    border: 0px;
+    color: white;
+    background-color: #000000;
+}
+.bigcolumn img {
+    width: 30px;
+    vertical-align: middle;
+}
+.select {
+    display: inline-block;
+    padding: 10px 0 5px 0;
+}
+.bigcolumn > h2 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+    color: #7289da;
+}
+.flex-containerlist {
+    flex-direction:column;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: white;
+    line-height: 2rem;
+}
+li:first-child {
+    color:#7289da;
 }
