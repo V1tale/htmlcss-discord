@@ -1,0 +1,153 @@
+/* RESER */
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: ;
+}
+.bgheader {
+    background-color: #255ee9;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+.logo1 >img {
+    /* align-items: flex-start; */
+    width: 8rem;
+    /* flex-grow: .5; */
+    /* padding: 5px 20px 5px 20px; */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+.login {
+    align-items: flex-start;
+    padding: 3px 15px 3px 15px;
+    background-color: white;
+    border-radius: 20px;;
+    text-align: right;
+    
+}
+header li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 8px;
+    color: white;
+}
+.linkheader {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+ }
+ ul {
+    display: flex;
+ }
+ .banner {
+    margin: auto;
+    height: 40rem;
+    background-image: url("../img/jumbo.png");
+    background-size:cover;
+    overflow: hidden;
+ }
+ .buttonwhite {
+    align-items: flex-start;
+    padding: 3px 15px 3px 15px;
+    background-color: white;
+    border-radius: 20px;;
+    text-align: right;
+    border: 0px;
+    margin-right: 10px;
+ }
+ .buttonblack {
+    align-items: flex-start;
+    padding: 3px 15px 3px 15px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 20px;;
+    text-align: right;
+    border: 0px;
+    color: white;
+ }
+ .container-title {
+    margin: auto;
+    padding-top: 80px;
+    width: 50%;
+    max-width: 1000px;
+    text-align: center;
+    color: white;
+ }
+ .container-title h2 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+ }
+ .container-title p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+ }
+.blocks {
+    display:flex;
+    height: 200px;
+    padding: 10px 0 10px 0;
+ }
+ .blockblue {
+    background-color: blue;
+    flex-grow: 2;
+ }
+ .blockpink {
+    background-color: rgb(231, 96, 118);
+    flex-grow: 1;
+ }
+.backgroundstyle {
+    width: 100%;
+}
+.gray{
+    background-color: gray;
+}
+.darkgray {
+    background-color: rgb(63, 63, 63);
+
+}
+.bigblock {
+    background-color: cyan;
+    /* padding: 10px 0 10px 0; */
+    height: 300px;
+}
+.clear-fix {
+    content:"";
+    display: table;
+    clear: both;
+    margin: auto;
+
+}
+.last-block {
+    padding: 10px 0 10px 0;
+}
+.column {
+    width: 50px;
+    background-color: rgb(112, 87, 255);
+    height: 200px;
+    flex-grow: 1;
+}
+.bigcolumn {
+    flex-grow: 3;
+    background-color: purple;
+}
+footer, .bg-black{
+    background-color: black;
+    width: 100%;
+}
+.logo2 {
+background-color: beige;
+}
+.foot {
+    width: 100%;
+    background-color: aquamarine;
+    margin-bottom: 5px;;
+}
